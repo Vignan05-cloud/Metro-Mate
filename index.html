@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroMate - Interactive Hyderabad Metro Navigator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚇</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="app-logo">🚇</div>
+                    <h1 class="app-title">MetroMate</h1>
+                    <span class="tagline">Interactive Metro Navigator</span>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn--secondary theme-toggle" id="themeToggle">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="btn btn--primary reset-btn" id="resetSelection">
+                        <span class="reset-icon">🔄</span>
+                        <span class="reset-text">Reset</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Selection Status Bar -->
+    <div class="selection-status" id="selectionStatus">
+        <div class="container">
+            <div class="status-content">
+                <div class="selection-step">
+                    <div class="step-indicator" id="sourceIndicator">
+                        <span class="step-number">1</span>
+                        <div class="step-info">
+                            <span class="step-label">From</span>
+                            <span class="step-value" id="sourceStation">Click any station</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="selection-arrow">→</div>
+                <div class="selection-step">
+                    <div class="step-indicator" id="destIndicator">
+                        <span class="step-number">2</span>
+                        <div class="step-info">
+                            <span class="step-label">To</span>
+                            <span class="step-value" id="destStation">Then click destination</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-swap" id="quickSwap" style="display: none;">
+                    <button class="btn btn--secondary btn--sm" id="swapStationsBtn">⇄</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="map-container">
+            <!-- Map -->
+            <div id="metro-map" class="metro-map"></div>
+            
+            <!-- Floating Results Panel -->
+            <div class="results-panel" id="resultsPanel">
+                <div class="panel-header">
+                    <h3>Journey Details</h3>
+                    <button class="panel-close" id="closePanelBtn">×</button>
+                </div>
+                <div class="panel-content">
+                    <div class="route-summary">
+                        <div class="summary-grid">
+                            <div class="summary-item">
+                                <div class="summary-icon">📏</div>
+                                <div class="summary-info">
+                                    <span class="summary-label">Distance</span>
+                                    <span class="summary-value" id="panelDistance">-</span>
+                                </div>
+                            </div>
+                            <div class="summary-item">
+                                <div class="summary-icon">⏱️</div>
+                                <div class="summary-info">
+                                    <span class="summary-label">Time</span>
+                                    <span class="summary-value" id="panelTime">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="fare-cards">
+                        <div class="fare-card">
+                            <div class="fare-header">
+                                <span class="fare-type">🎫 Token</span>
+                                <span class="fare-amount" id="tokenAmount">₹-</span>
+                            </div>
+                        </div>
+                        <div class="fare-card preferred">
+                            <div class="fare-header">
+                                <span class="fare-type">💳 Smart Card</span>
+                                <span class="fare-amount" id="smartAmount">₹-</span>
+                            </div>
+                            <div class="fare-savings" id="savingsAmount">Save ₹-</div>
+                        </div>
+                    </div>
+
+                    <div class="route-path" id="routePath"></div>
+                </div>
+            </div>
+
+            <!-- Map Legend -->
+            <div class="map-legend">
+                <div class="legend-header">
+                    <h4>Metro Lines</h4>
+                </div>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <span class="legend-line red-line"></span>
+                        <span class="legend-text">Red Line</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-line blue-line"></span>
+                        <span class="legend-text">Blue Line</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-line green-line"></span>
+                        <span class="legend-text">Green Line</span>
+                    </div>
+                </div>
+                <div class="legend-help">
+                    <div class="help-item">
+                        <span class="help-dot source-dot"></span>
+                        <span class="help-text">Source</span>
+                    </div>
+                    <div class="help-item">
+                        <span class="help-dot dest-dot"></span>
+                        <span class="help-text">Destination</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructions Overlay -->
+            <div class="instructions-overlay" id="instructionsOverlay">
+                <div class="instructions-content">
+                    <div class="instructions-icon">🎯</div>
+                    <h3>How to Use</h3>
+                    <ol>
+                        <li>Click on any station dot to select as <strong>source</strong></li>
+                        <li>Click on another station to select as <strong>destination</strong></li>
+                        <li>View instant fare and route details in the results panel</li>
+                        <li>Use the reset button to start over</li>
+                    </ol>
+                    <button class="btn btn--primary" id="gotItBtn">Got it!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Tabs (Collapsed by default) -->
+        <div class="additional-tools" id="additionalTools">
+            <div class="tools-toggle">
+                <button class="btn btn--secondary" id="toolsToggle">
+                    <span class="tools-icon">⚙️</span>
+                    <span class="tools-text">More Tools</span>
+                </button>
+            </div>
+            
+            <div class="tools-content" id="toolsContent" style="display: none;">
+                <div class="tools-grid">
+                    <!-- Route Planner -->
+                    <div class="tool-section">
+                        <h3>Route Planner</h3>
+                        <div class="form-group">
+                            <label class="form-label" for="source-station">From</label>
+                            <select class="form-control" id="source-station">
+                                <option value="">Select source station</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="dest-station">To</label>
+                            <select class="form-control" id="dest-station">
+                                <option value="">Select destination station</option>
+                            </select>
+                        </div>
+                        <button class="btn btn--primary btn--full-width" id="findRoute">Find Route</button>
+                    </div>
+
+                    <!-- Fare Calculator -->
+                    <div class="tool-section">
+                        <h3>Fare Calculator</h3>
+                        <div class="form-group">
+                            <label class="form-label" for="fare-from">From</label>
+                            <select class="form-control" id="fare-from">
+                                <option value="">Select starting station</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="fare-to">To</label>
+                            <select class="form-control" id="fare-to">
+                                <option value="">Select destination station</option>
+                            </select>
+                        </div>
+                        <button class="btn btn--primary btn--full-width" id="calculateFare">Calculate Fare</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 MetroMate - Enhanced Interactive Experience</p>
+                    <p>Real-time metro navigation made simple</p>
+                </div>
+                <div class="footer-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">59</span>
+                        <span class="stat-label">Stations</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Lines</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Notification Toast -->
+    <div class="notification-toast" id="notificationToast">
+        <div class="toast-content">
+            <div class="toast-icon" id="toastIcon"></div>
+            <div class="toast-message" id="toastMessage"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

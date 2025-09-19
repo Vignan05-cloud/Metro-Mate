@@ -1,0 +1,1128 @@
+{
+  "metro_data": {
+    "red_line": {
+      "name": "Red Line (Miyapur - L.B. Nagar)",
+      "color": "#FF0000",
+      "stations": [
+        {
+          "name": "Miyapur",
+          "code": "MYP",
+          "lat": 17.4947,
+          "lng": 78.3884,
+          "index": 0,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "JNTU College",
+          "code": "JTU",
+          "lat": 17.4926,
+          "lng": 78.3916,
+          "index": 1,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "KPHB Colony",
+          "code": "KPH",
+          "lat": 17.4886,
+          "lng": 78.3972,
+          "index": 2,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Kukatpally",
+          "code": "KUK",
+          "lat": 17.4842,
+          "lng": 78.4078,
+          "index": 3,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Dr. B.R. Ambedkar Balanagar",
+          "code": "BAL",
+          "lat": 17.4804,
+          "lng": 78.4198,
+          "index": 4,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Moosapet",
+          "code": "MSP",
+          "lat": 17.4782,
+          "lng": 78.4291,
+          "index": 5,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Bharat Nagar",
+          "code": "BHN",
+          "lat": 17.4751,
+          "lng": 78.4405,
+          "index": 6,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Erragadda",
+          "code": "ERG",
+          "lat": 17.4707,
+          "lng": 78.4484,
+          "index": 7,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "ESI Hospital",
+          "code": "ESI",
+          "lat": 17.4649,
+          "lng": 78.4564,
+          "index": 8,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "S.R. Nagar",
+          "code": "SRN",
+          "lat": 17.4588,
+          "lng": 78.4644,
+          "index": 9,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Ameerpet",
+          "code": "AMP",
+          "lat": 17.4373,
+          "lng": 78.4482,
+          "index": 10,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Punjagutta",
+          "code": "PJG",
+          "lat": 17.4311,
+          "lng": 78.4517,
+          "index": 11,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Irrum Manzil",
+          "code": "IRM",
+          "lat": 17.4254,
+          "lng": 78.4567,
+          "index": 12,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Khairatabad",
+          "code": "KHB",
+          "lat": 17.4189,
+          "lng": 78.4653,
+          "index": 13,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Lakdi-ka-pul",
+          "code": "LKP",
+          "lat": 17.4101,
+          "lng": 78.4717,
+          "index": 14,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Assembly",
+          "code": "ASM",
+          "lat": 17.4021,
+          "lng": 78.4789,
+          "index": 15,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Nampally",
+          "code": "NMP",
+          "lat": 17.3951,
+          "lng": 78.4856,
+          "index": 16,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Gandhi Bhavan",
+          "code": "GBH",
+          "lat": 17.3888,
+          "lng": 78.4921,
+          "index": 17,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Osmania Medical College",
+          "code": "OMC",
+          "lat": 17.3824,
+          "lng": 78.4989,
+          "index": 18,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "MG Bus Station",
+          "code": "MGBS",
+          "lat": 17.3749,
+          "lng": 78.5045,
+          "index": 19,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Malakpet",
+          "code": "MKP",
+          "lat": 17.3697,
+          "lng": 78.5123,
+          "index": 20,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "New Market",
+          "code": "NMK",
+          "lat": 17.3642,
+          "lng": 78.5201,
+          "index": 21,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Musarambagh",
+          "code": "MBG",
+          "lat": 17.3586,
+          "lng": 78.5279,
+          "index": 22,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Dilsukhnagar",
+          "code": "DSN",
+          "lat": 17.3531,
+          "lng": 78.5357,
+          "index": 23,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Chaitanyapuri",
+          "code": "CHP",
+          "lat": 17.3475,
+          "lng": 78.5435,
+          "index": 24,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "Victoria Memorial",
+          "code": "VCM",
+          "lat": 17.3419,
+          "lng": 78.5513,
+          "index": 25,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        },
+        {
+          "name": "L.B. Nagar",
+          "code": "LBN",
+          "lat": 17.3364,
+          "lng": 78.5591,
+          "index": 26,
+          "line": "red_line",
+          "line_color": "#FF0000"
+        }
+      ]
+    },
+    "blue_line": {
+      "name": "Blue Line (Nagole - Raidurg)",
+      "color": "#0000FF",
+      "stations": [
+        {
+          "name": "Nagole",
+          "code": "NGL",
+          "lat": 17.3364,
+          "lng": 78.6789,
+          "index": 0,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Uppal",
+          "code": "UPL",
+          "lat": 17.4064,
+          "lng": 78.5591,
+          "index": 1,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Stadium",
+          "code": "STD",
+          "lat": 17.4125,
+          "lng": 78.5513,
+          "index": 2,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "NGRI",
+          "code": "NGR",
+          "lat": 17.4186,
+          "lng": 78.5435,
+          "index": 3,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Habsiguda",
+          "code": "HBS",
+          "lat": 17.4247,
+          "lng": 78.5357,
+          "index": 4,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Tarnaka",
+          "code": "TNK",
+          "lat": 17.4308,
+          "lng": 78.5279,
+          "index": 5,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Mettuguda",
+          "code": "MTG",
+          "lat": 17.4369,
+          "lng": 78.5201,
+          "index": 6,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Secunderabad East",
+          "code": "SCE",
+          "lat": 17.4443,
+          "lng": 78.5045,
+          "index": 7,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Parade Ground",
+          "code": "PGD",
+          "lat": 17.4504,
+          "lng": 78.4989,
+          "index": 8,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Paradise",
+          "code": "PRD",
+          "lat": 17.4565,
+          "lng": 78.4933,
+          "index": 9,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Rasoolpura",
+          "code": "RSP",
+          "lat": 17.4626,
+          "lng": 78.4877,
+          "index": 10,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Prakash Nagar",
+          "code": "PKN",
+          "lat": 17.4687,
+          "lng": 78.4821,
+          "index": 11,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Begumpet",
+          "code": "BGP",
+          "lat": 17.4748,
+          "lng": 78.4765,
+          "index": 12,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Ameerpet",
+          "code": "AMP",
+          "lat": 17.4373,
+          "lng": 78.4482,
+          "index": 13,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Madhura Nagar",
+          "code": "MDN",
+          "lat": 17.4312,
+          "lng": 78.4426,
+          "index": 14,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Yusufguda",
+          "code": "YSG",
+          "lat": 17.4251,
+          "lng": 78.437,
+          "index": 15,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Road No. 5 Jubilee Hills",
+          "code": "JH5",
+          "lat": 17.419,
+          "lng": 78.4314,
+          "index": 16,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Jubilee Hills Check Post",
+          "code": "JCP",
+          "lat": 17.4129,
+          "lng": 78.4258,
+          "index": 17,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Peddamma Gudi",
+          "code": "PMG",
+          "lat": 17.4068,
+          "lng": 78.4202,
+          "index": 18,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Madhapur",
+          "code": "MDP",
+          "lat": 17.4007,
+          "lng": 78.4146,
+          "index": 19,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Durgam Cheruvu",
+          "code": "DGC",
+          "lat": 17.3946,
+          "lng": 78.409,
+          "index": 20,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "HITEC City",
+          "code": "HTC",
+          "lat": 17.3885,
+          "lng": 78.4034,
+          "index": 21,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        },
+        {
+          "name": "Raidurg",
+          "code": "RDG",
+          "lat": 17.3824,
+          "lng": 78.3978,
+          "index": 22,
+          "line": "blue_line",
+          "line_color": "#0000FF"
+        }
+      ]
+    },
+    "green_line": {
+      "name": "Green Line (JBS Parade Ground - MGBS)",
+      "color": "#00FF00",
+      "stations": [
+        {
+          "name": "JBS Parade Ground",
+          "code": "JBS",
+          "lat": 17.4504,
+          "lng": 78.4989,
+          "index": 0,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Secunderabad West",
+          "code": "SCW",
+          "lat": 17.4443,
+          "lng": 78.5045,
+          "index": 1,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Gandhi Hospital",
+          "code": "GDH",
+          "lat": 17.4382,
+          "lng": 78.5101,
+          "index": 2,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Musheerabad",
+          "code": "MSH",
+          "lat": 17.4321,
+          "lng": 78.5157,
+          "index": 3,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "RTC X Roads",
+          "code": "RTC",
+          "lat": 17.426,
+          "lng": 78.5213,
+          "index": 4,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Chikkadpally",
+          "code": "CKD",
+          "lat": 17.4199,
+          "lng": 78.5269,
+          "index": 5,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Narayanguda",
+          "code": "NRG",
+          "lat": 17.4138,
+          "lng": 78.5325,
+          "index": 6,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "Sultan Bazaar",
+          "code": "SLB",
+          "lat": 17.4077,
+          "lng": 78.5381,
+          "index": 7,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        },
+        {
+          "name": "MG Bus Station",
+          "code": "MGBS",
+          "lat": 17.3749,
+          "lng": 78.5045,
+          "index": 8,
+          "line": "green_line",
+          "line_color": "#00FF00"
+        }
+      ]
+    }
+  },
+  "fare_structure": {
+    "0-2": {
+      "token": 12,
+      "smart_card": 11
+    },
+    "2-4": {
+      "token": 19,
+      "smart_card": 17
+    },
+    "4-6": {
+      "token": 32,
+      "smart_card": 28
+    },
+    "6-9": {
+      "token": 42,
+      "smart_card": 37
+    },
+    "9-12": {
+      "token": 52,
+      "smart_card": 47
+    },
+    "12-15": {
+      "token": 56,
+      "smart_card": 51
+    },
+    "15-18": {
+      "token": 63,
+      "smart_card": 56
+    },
+    "18-21": {
+      "token": 68,
+      "smart_card": 61
+    },
+    "21-24": {
+      "token": 72,
+      "smart_card": 65
+    },
+    "24+": {
+      "token": 76,
+      "smart_card": 69
+    }
+  },
+  "all_stations": [
+    {
+      "name": "Miyapur",
+      "code": "MYP",
+      "lat": 17.4947,
+      "lng": 78.3884,
+      "index": 0,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "JNTU College",
+      "code": "JTU",
+      "lat": 17.4926,
+      "lng": 78.3916,
+      "index": 1,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "KPHB Colony",
+      "code": "KPH",
+      "lat": 17.4886,
+      "lng": 78.3972,
+      "index": 2,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Kukatpally",
+      "code": "KUK",
+      "lat": 17.4842,
+      "lng": 78.4078,
+      "index": 3,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Dr. B.R. Ambedkar Balanagar",
+      "code": "BAL",
+      "lat": 17.4804,
+      "lng": 78.4198,
+      "index": 4,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Moosapet",
+      "code": "MSP",
+      "lat": 17.4782,
+      "lng": 78.4291,
+      "index": 5,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Bharat Nagar",
+      "code": "BHN",
+      "lat": 17.4751,
+      "lng": 78.4405,
+      "index": 6,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Erragadda",
+      "code": "ERG",
+      "lat": 17.4707,
+      "lng": 78.4484,
+      "index": 7,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "ESI Hospital",
+      "code": "ESI",
+      "lat": 17.4649,
+      "lng": 78.4564,
+      "index": 8,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "S.R. Nagar",
+      "code": "SRN",
+      "lat": 17.4588,
+      "lng": 78.4644,
+      "index": 9,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Ameerpet",
+      "code": "AMP",
+      "lat": 17.4373,
+      "lng": 78.4482,
+      "index": 10,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Punjagutta",
+      "code": "PJG",
+      "lat": 17.4311,
+      "lng": 78.4517,
+      "index": 11,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Irrum Manzil",
+      "code": "IRM",
+      "lat": 17.4254,
+      "lng": 78.4567,
+      "index": 12,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Khairatabad",
+      "code": "KHB",
+      "lat": 17.4189,
+      "lng": 78.4653,
+      "index": 13,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Lakdi-ka-pul",
+      "code": "LKP",
+      "lat": 17.4101,
+      "lng": 78.4717,
+      "index": 14,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Assembly",
+      "code": "ASM",
+      "lat": 17.4021,
+      "lng": 78.4789,
+      "index": 15,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Nampally",
+      "code": "NMP",
+      "lat": 17.3951,
+      "lng": 78.4856,
+      "index": 16,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Gandhi Bhavan",
+      "code": "GBH",
+      "lat": 17.3888,
+      "lng": 78.4921,
+      "index": 17,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Osmania Medical College",
+      "code": "OMC",
+      "lat": 17.3824,
+      "lng": 78.4989,
+      "index": 18,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "MG Bus Station",
+      "code": "MGBS",
+      "lat": 17.3749,
+      "lng": 78.5045,
+      "index": 19,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Malakpet",
+      "code": "MKP",
+      "lat": 17.3697,
+      "lng": 78.5123,
+      "index": 20,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "New Market",
+      "code": "NMK",
+      "lat": 17.3642,
+      "lng": 78.5201,
+      "index": 21,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Musarambagh",
+      "code": "MBG",
+      "lat": 17.3586,
+      "lng": 78.5279,
+      "index": 22,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Dilsukhnagar",
+      "code": "DSN",
+      "lat": 17.3531,
+      "lng": 78.5357,
+      "index": 23,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Chaitanyapuri",
+      "code": "CHP",
+      "lat": 17.3475,
+      "lng": 78.5435,
+      "index": 24,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Victoria Memorial",
+      "code": "VCM",
+      "lat": 17.3419,
+      "lng": 78.5513,
+      "index": 25,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "L.B. Nagar",
+      "code": "LBN",
+      "lat": 17.3364,
+      "lng": 78.5591,
+      "index": 26,
+      "line": "red_line",
+      "line_color": "#FF0000"
+    },
+    {
+      "name": "Nagole",
+      "code": "NGL",
+      "lat": 17.3364,
+      "lng": 78.6789,
+      "index": 0,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Uppal",
+      "code": "UPL",
+      "lat": 17.4064,
+      "lng": 78.5591,
+      "index": 1,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Stadium",
+      "code": "STD",
+      "lat": 17.4125,
+      "lng": 78.5513,
+      "index": 2,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "NGRI",
+      "code": "NGR",
+      "lat": 17.4186,
+      "lng": 78.5435,
+      "index": 3,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Habsiguda",
+      "code": "HBS",
+      "lat": 17.4247,
+      "lng": 78.5357,
+      "index": 4,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Tarnaka",
+      "code": "TNK",
+      "lat": 17.4308,
+      "lng": 78.5279,
+      "index": 5,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Mettuguda",
+      "code": "MTG",
+      "lat": 17.4369,
+      "lng": 78.5201,
+      "index": 6,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Secunderabad East",
+      "code": "SCE",
+      "lat": 17.4443,
+      "lng": 78.5045,
+      "index": 7,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Parade Ground",
+      "code": "PGD",
+      "lat": 17.4504,
+      "lng": 78.4989,
+      "index": 8,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Paradise",
+      "code": "PRD",
+      "lat": 17.4565,
+      "lng": 78.4933,
+      "index": 9,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Rasoolpura",
+      "code": "RSP",
+      "lat": 17.4626,
+      "lng": 78.4877,
+      "index": 10,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Prakash Nagar",
+      "code": "PKN",
+      "lat": 17.4687,
+      "lng": 78.4821,
+      "index": 11,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Begumpet",
+      "code": "BGP",
+      "lat": 17.4748,
+      "lng": 78.4765,
+      "index": 12,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Ameerpet",
+      "code": "AMP",
+      "lat": 17.4373,
+      "lng": 78.4482,
+      "index": 13,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Madhura Nagar",
+      "code": "MDN",
+      "lat": 17.4312,
+      "lng": 78.4426,
+      "index": 14,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Yusufguda",
+      "code": "YSG",
+      "lat": 17.4251,
+      "lng": 78.437,
+      "index": 15,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Road No. 5 Jubilee Hills",
+      "code": "JH5",
+      "lat": 17.419,
+      "lng": 78.4314,
+      "index": 16,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Jubilee Hills Check Post",
+      "code": "JCP",
+      "lat": 17.4129,
+      "lng": 78.4258,
+      "index": 17,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Peddamma Gudi",
+      "code": "PMG",
+      "lat": 17.4068,
+      "lng": 78.4202,
+      "index": 18,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Madhapur",
+      "code": "MDP",
+      "lat": 17.4007,
+      "lng": 78.4146,
+      "index": 19,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Durgam Cheruvu",
+      "code": "DGC",
+      "lat": 17.3946,
+      "lng": 78.409,
+      "index": 20,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "HITEC City",
+      "code": "HTC",
+      "lat": 17.3885,
+      "lng": 78.4034,
+      "index": 21,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "Raidurg",
+      "code": "RDG",
+      "lat": 17.3824,
+      "lng": 78.3978,
+      "index": 22,
+      "line": "blue_line",
+      "line_color": "#0000FF"
+    },
+    {
+      "name": "JBS Parade Ground",
+      "code": "JBS",
+      "lat": 17.4504,
+      "lng": 78.4989,
+      "index": 0,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Secunderabad West",
+      "code": "SCW",
+      "lat": 17.4443,
+      "lng": 78.5045,
+      "index": 1,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Gandhi Hospital",
+      "code": "GDH",
+      "lat": 17.4382,
+      "lng": 78.5101,
+      "index": 2,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Musheerabad",
+      "code": "MSH",
+      "lat": 17.4321,
+      "lng": 78.5157,
+      "index": 3,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "RTC X Roads",
+      "code": "RTC",
+      "lat": 17.426,
+      "lng": 78.5213,
+      "index": 4,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Chikkadpally",
+      "code": "CKD",
+      "lat": 17.4199,
+      "lng": 78.5269,
+      "index": 5,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Narayanguda",
+      "code": "NRG",
+      "lat": 17.4138,
+      "lng": 78.5325,
+      "index": 6,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "Sultan Bazaar",
+      "code": "SLB",
+      "lat": 17.4077,
+      "lng": 78.5381,
+      "index": 7,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    },
+    {
+      "name": "MG Bus Station",
+      "code": "MGBS",
+      "lat": 17.3749,
+      "lng": 78.5045,
+      "index": 8,
+      "line": "green_line",
+      "line_color": "#00FF00"
+    }
+  ]
+}
